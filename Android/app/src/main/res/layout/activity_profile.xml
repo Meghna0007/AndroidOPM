@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/imgView"
+
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="500dp"
+        android:contentDescription="@string/action_settings"
+        android:src="@drawable/profile_pic" />
+
+    <EditText
+        android:id="@+id/area1"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="302dp"
+        android:hint="Address"
+        android:inputType="textLongMessage"
+        android:text="" />
+    <ImageView
+        android:id="@+id/shop2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="390dp"
+        android:layout_marginBottom="254dp"
+        android:src="@drawable/shop_2"
+        android:layout_marginStart="70dp"
+
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/shop3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="254dp"
+        android:src="@drawable/shop_3"
+        android:layout_marginStart="70dp"
+
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/shop4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="254dp"
+        android:src="@drawable/pan"
+        android:layout_marginStart="70dp"
+
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/area2"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="244dp"
+        android:importantForAutofill="auto"
+        android:hint="PAN No."
+        android:inputType="textAutoComplete"
+        android:text="" />
+    <EditText
+        android:id="@+id/area6"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="244dp"
+        android:importantForAutofill="auto"
+        android:hint="GST NO."
+        android:inputType="textAutoComplete"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/shop1"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="254dp"
+        android:src="@drawable/shop1"
+        android:layout_marginStart="70dp"
+
+        tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+        android:id="@+id/area4"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="365dp"
+        android:autofillHints="@string/action_settings"
+        android:hint="Enter your Name"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+    android:id="@+id/areaa"
+    android:layout_width="190dp"
+    android:layout_height="37dp"
+    android:layout_marginStart="130dp"
+    android:layout_marginTop="340dp"
+    android:layout_marginEnd="14dp"
+    android:layout_marginBottom="365dp"
+    android:autofillHints="@string/action_settings"
+    android:hint="Bussiness/Shop name"
+    android:inputType="textPersonName"
+    android:text="" />
+
+    <EditText
+        android:id="@+id/area5"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="184dp"
+        android:autofillHints="@string/action_settings"
+        android:hint="Aadhar No."
+        android:inputType="number"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="50dp"
+        android:background="#4267b2"
+        android:textColor="@color/white"
+        android:text="Submit" />
+    <ImageView
+        android:id="@+id/shop5"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="254dp"
+        android:src="@drawable/aad"
+        android:layout_marginStart="70dp"
+
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/shop6"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="254dp"
+        android:src="@drawable/gst"
+        android:layout_marginStart="70dp"
+
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonLoadPicture"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="180dp"
+        android:background="#4267b2"
+        android:textColor="@color/white"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="69dp"
+        android:text="Shop_Photo " />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

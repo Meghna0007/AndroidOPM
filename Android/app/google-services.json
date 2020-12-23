@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "694811921321",
+    "project_id": "welcometoopm",
+    "storage_bucket": "welcometoopm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694811921321:android:d0d1989a5d48b338f552b8",
+        "android_client_info": {
+          "package_name": "com.example.welcometoopm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694811921321-na31792ca4eu4fatldd398j2ho48u8mg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.welcometoopm",
+            "certificate_hash": "3b049ee59793fdc567f30083134ae65954ac30c5"
+          }
+        },
+        {
+          "client_id": "694811921321-n6hrlmi5668l49r09jms2anv596t1fv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0OHpuKpWNvkkr3mvQcTkBPkI2jR78vz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694811921321-n6hrlmi5668l49r09jms2anv596t1fv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
